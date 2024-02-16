@@ -1,0 +1,51 @@
+html{
+    font-family: 'Edu SA Beginner', cursive;
+    background-color: paleturquoise;
+}
+
+body{
+   flex-direction: column; 
+}
+
+.titulo{
+    color: #9f2626;
+    font-size: 50px;     
+}
+
+label{
+    color:brown;
+    font-size:20px;   
+}
+
+.texto {
+    border: none;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(3, 137, 88);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    width: 100px;
+    transition: width 0.4s ease-in-out; 
+
+}
+.texto[type="text"]:focus{
+    width: 400px;
+}
+
+.boton{
+    font-size: 20px;
+    font-family: cursive;
+    padding: 10px;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+}
+
+img {
+    position: relative;
+    top: -15px;
+    left: 800px;
+    width: 150px;
+    height: 150px;
+    display: block;
+}
